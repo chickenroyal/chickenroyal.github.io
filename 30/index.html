@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🥳🥳🥳</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥳</text></svg>">
+  <style>
+    :root{--border-box:dodgerblue;--border-button:hotpink;--background-button:255,255,255;--text-box:orangered;--text-button:rebeccapurple;--focus:rebeccapurple}html,body{padding:0;margin:0}html{background:#d7ebf2 url(cats.jpg) repeat;background-blend-mode:screen}body{overflow-x:hidden}@keyframes bg{0%,100%{background-color:#1e90ff}25%{background-color:#39d24a}50%{background-color:#ffe244}75%{background-color:#ff36a3}}.container{padding:20px;display:flex;flex-direction:column;flex:1 1 0%}.item{align-self:center}.item.question{width:50%;padding:20px;margin-bottom:20px;border:5px solid var(--border-box);background:rgba(255,255,255,.66);backdrop-filter:blur(6px)}label,p,input,button{font-family:"Comic Sans MS";font-size:1.2rem;display:block}label,p{color:var(--text-box)}input:focus,button:focus{outline:5px solid var(--focus)}input{border:1px solid var(--border-box);background:none;color:var(--text-button);margin-top:.5rem;width:66%}button{background:rgba(var(--background-button),.66);backdrop-filter:blur(3px);color:var(--text-button);border:5px solid var(--border-button);padding:5px 44px}p{text-align:center;transition:opacity 0.5s ease;opacity:0}p.visible{opacity:1}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item question">
+      <label for="code1">How many WWE championship titles are there?</label>
+      <input id="code1" name="code1" type="number" min="0" />
+    </div>
+    <div class="item question">
+      <label for="code2">At which Wrestlemania did Undertaker lose The Streak?</label>
+      <input id="code2" name="code2" type="number" min="0" />
+    </div>
+    <div class="item question">
+      <label for="code3">What day of this year is your birthday?</label>
+      <input id="code3" name="code3" type="number" min="0" />
+    </div>
+    <div class="item question">
+      <label for="code4">Enter your year of birth &times; month &times; day:</label>
+      <input id="code4" name="code4" type="number" min="0" />
+    </div>
+    <div class="item question">
+      <label for="code5">How many pom poms were inside the boxes?</label>
+      <input id="code5" name="code5" type="number" min="0" />
+    </div>
+    <div class="item">
+      <button id="submit" type="submit">Check answers</button>
+    </div>
+    <div class="item">
+      <p id="output">&nbsp;</p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script>
+    (function(){'use strict';const inputs=document.querySelectorAll(`input`);for(const input of inputs){input.value="";}
+      const outputText=document.querySelector(`#output`);const submitBtn=document.querySelector(`#submit`);const code1Answer="MTU=";const code2Answer="MzA=";const code3Answer="MjAz";const code4Answer="MzA2OTIy";const code5Answer="Mjk3";let clickCountLimit=Math.floor(Math.random()*31)+20;let clickCount=0;submitBtn.addEventListener(`keypress`,(e)=>{if(e.keyCode===13||e.keyCode===32){e.preventDefault();}});submitBtn.addEventListener(`keyup`,(e)=>{if(e.keyCode===13||e.keyCode===32){e.preventDefault();}});submitBtn.addEventListener(`click`,()=>{clickCount++;const code1=document.querySelector(`#code1`);const code2=document.querySelector(`#code2`);const code3=document.querySelector(`#code3`);const code4=document.querySelector(`#code4`);const code5=document.querySelector(`#code5`);const code1Value=btoa(parseInt(code1.value));const code2Value=btoa(parseInt(code2.value));const code3Value=btoa(parseInt(code3.value));const code4Value=btoa(parseInt(code4.value));const code5Value=btoa(parseInt(code5.value));if(clickCount>=clickCountLimit){if(code1Value===code1Answer&&code2Value===code2Answer&&code3Value===code3Answer&&code4Value===code4Answer&&code5Value===code5Answer){outputText.innerHTML=`Congratulations!<br>The final two characters of your voucher are: B9`;outputText.classList.add(`visible`);confetti({particleCount:250,spread:120});}else{for(const input of inputs){input.value="";}
+      outputText.innerText=`Try again.`;outputText.classList.add(`visible`);clickCountLimit=Math.floor(Math.random()*31)+10;clickCount=0;setTimeout(()=>{outputText.classList.remove(`visible`);},3000);}}else{outputText.innerText=`Keep clicking! Only ${(clickCountLimit-clickCount)} clicks to go.`;outputText.classList.add(`visible`);}});
+    })();
+  </script>
+</body>
+</html>

@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Andrew Royal - Front-end developer">
     <meta name="author" content="Andrew Royal">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="css/styles.min.css" rel="stylesheet" type="text/css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/manifest.json">
@@ -17,6 +19,12 @@
       <defs>
         <symbol id="icon-twitter" viewBox="0 0 30 32">
           <path class="path1" d="M28.929 7.286q-1.196 1.75-2.893 2.982 0.018 0.25 0.018 0.75 0 2.321-0.679 4.634t-2.063 4.437-3.295 3.759-4.607 2.607-5.768 0.973q-4.839 0-8.857-2.589 0.625 0.071 1.393 0.071 4.018 0 7.161-2.464-1.875-0.036-3.357-1.152t-2.036-2.848q0.589 0.089 1.089 0.089 0.768 0 1.518-0.196-2-0.411-3.313-1.991t-1.313-3.67v-0.071q1.214 0.679 2.607 0.732-1.179-0.786-1.875-2.054t-0.696-2.75q0-1.571 0.786-2.911 2.161 2.661 5.259 4.259t6.634 1.777q-0.143-0.679-0.143-1.321 0-2.393 1.688-4.080t4.080-1.688q2.5 0 4.214 1.821 1.946-0.375 3.661-1.393-0.661 2.054-2.536 3.179 1.661-0.179 3.321-0.893z"></path>
+        </symbol>
+        <symbol id="icon-bluesky" viewBox="0 0 16 16">
+          <path class="path1" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"></path>
+        </symbol>
+        <symbol id="icon-mastodon" viewBox="0 0 16 16">
+          <path class="path1" d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a3.614 3.614 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522c0-.859.22-1.541.66-2.046.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764.442.505.661 1.187.661 2.046v4.203z"></path>
         </symbol>
         <symbol id="icon-github" viewBox="0 0 27 32">
           <path class="path1" d="M13.714 2.286q3.732 0 6.884 1.839t4.991 4.991 1.839 6.884q0 4.482-2.616 8.063t-6.759 4.955q-0.482 0.089-0.714-0.125t-0.232-0.536q0-0.054 0.009-1.366t0.009-2.402q0-1.732-0.929-2.536 1.018-0.107 1.83-0.321t1.679-0.696 1.446-1.188 0.946-1.875 0.366-2.688q0-2.125-1.411-3.679 0.661-1.625-0.143-3.643-0.5-0.161-1.446 0.196t-1.643 0.786l-0.679 0.429q-1.661-0.464-3.429-0.464t-3.429 0.464q-0.286-0.196-0.759-0.482t-1.491-0.688-1.518-0.241q-0.804 2.018-0.143 3.643-1.411 1.554-1.411 3.679 0 1.518 0.366 2.679t0.938 1.875 1.438 1.196 1.679 0.696 1.83 0.321q-0.696 0.643-0.875 1.839-0.375 0.179-0.804 0.268t-1.018 0.089-1.17-0.384-0.991-1.116q-0.339-0.571-0.866-0.929t-0.884-0.429l-0.357-0.054q-0.375 0-0.518 0.080t-0.089 0.205 0.161 0.25 0.232 0.214l0.125 0.089q0.393 0.179 0.777 0.679t0.563 0.911l0.179 0.411q0.232 0.679 0.786 1.098t1.196 0.536 1.241 0.125 0.991-0.063l0.411-0.071q0 0.679 0.009 1.58t0.009 0.973q0 0.321-0.232 0.536t-0.714 0.125q-4.143-1.375-6.759-4.955t-2.616-8.063q0-3.732 1.839-6.884t4.991-4.991 6.884-1.839zM5.196 21.982q0.054-0.125-0.125-0.214-0.179-0.054-0.232 0.036-0.054 0.125 0.125 0.214 0.161 0.107 0.232-0.036zM5.75 22.589q0.125-0.089-0.036-0.286-0.179-0.161-0.286-0.054-0.125 0.089 0.036 0.286 0.179 0.179 0.286 0.054zM6.286 23.393q0.161-0.125 0-0.339-0.143-0.232-0.304-0.107-0.161 0.089 0 0.321t0.304 0.125zM7.036 24.143q0.143-0.143-0.071-0.339-0.214-0.214-0.357-0.054-0.161 0.143 0.071 0.339 0.214 0.214 0.357 0.054zM8.054 24.589q0.054-0.196-0.232-0.286-0.268-0.071-0.339 0.125t0.232 0.268q0.268 0.107 0.339-0.107zM9.179 24.679q0-0.232-0.304-0.196-0.286 0-0.286 0.196 0 0.232 0.304 0.196 0.286 0 0.286-0.196zM10.214 24.5q-0.036-0.196-0.321-0.161-0.286 0.054-0.25 0.268t0.321 0.143 0.25-0.25z"></path>
@@ -38,9 +46,9 @@
     <main class="container">
       <section>
         <div class="intro">
-          <p>Hi! I'm Andrew, a front-end developer from Newcastle.</p>
-          <p>I enjoy making responsive websites and staying up-to-date with the latest web technologies. I'm particularly fond of HTML5, CSS3 and Sass, JavaScript and TypeScript, Angular and SVG.</p>
-          <p>Below is a selection of projects I've worked on. You can get in touch with me by <a href="mailto:hi@aroyal.dev">email</a>, or on <a href="https://twitter.com/chickenroyal">Twitter</a>.</p>
+          <p>Hi! I'm Andrew, a senior software developer from Newcastle.</p>
+          <p>I enjoy making responsive websites and staying up-to-date with the latest web technologies. I'm particularly fond of HTML5, CSS3 and Sass, JavaScript and TypeScript, Angular, NodeJS, AWS and SVG.</p>
+          <p>Below is a selection of projects I've worked on. You can get in touch with me by <a href="mailto:hi@aroyal.dev">email</a> or on <a href="https://twitter.com/chickenroyal">Twitter</a>.</p>
         </div>
       </section>
       <section>
@@ -82,14 +90,14 @@
           <div class="card-text">
             <h2><a href="https://github.com/chickenroyal/rain">Rain or No Rain</a></h2>
             <p>Is it raining where you are? Of course there's a website for that. How else are you meant to know?</p>
-            <p>Uses the HTML5 Geolocation interface along with <a href="https://developer.forecast.io/">Forecast.io</a> and <a href="https://developers.google.com/maps/documentation/geocoding/start">Google Maps Geocoding</a> APIs.</p>
+            <p>Uses the HTML5 Geolocation interface along with <a href="https://forecast.io/">Forecast.io</a> and <a href="https://developers.google.com/maps/documentation/geocoding/start">Google Maps Geocoding</a> APIs.</p>
           </div>
         </div>
         <div class="card">
           <img src="images/site-consult.jpg" alt="Consult the Experts screenshots">
           <div class="card-text">
-            <h2><a href="http://consulttheexperts.co.uk">Consult the Experts</a></h2>
-            <p>North East management consultancy firm.</p>
+            <h2>Consult the Experts</h2>
+            <p>North East management consultancy firm. <a href="https://web.archive.org/web/20180810205044/http://consulttheexperts.co.uk/">Archived version available</a>.</p>
             <p>Built using WordPress and a customised theme.</p>
           </div>
         </div>
@@ -101,6 +109,22 @@
           <div>
             <svg viewBox="0 0 26 28">
               <use xlink:href="#icon-twitter"></use>
+            </svg>
+          </div>
+          <span>@chickenroyal</span>
+        </a>
+        <a href="https://bsky.app/profile/aroyal.dev" aria-label="Bluesky">
+          <div>
+            <svg viewBox="0 0 16 16">
+              <use xlink:href="#icon-bluesky"></use>
+            </svg>
+          </div>
+          <span>@aroyal.dev</span>
+        </a>
+        <a href="https://mastodon.online/@chickenroyal" rel="me" aria-label="Mastodon">
+          <div>
+            <svg viewBox="0 0 16 16">
+              <use xlink:href="#icon-mastodon"></use>
             </svg>
           </div>
           <span>@chickenroyal</span>
