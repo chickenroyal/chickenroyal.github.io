@@ -1,4 +1,4 @@
-const cacheName = 'v1.4::static';
+const cacheName = 'v1.5::static';
 
 self.addEventListener('install', event => {
   // Once SW is installed, fetch the resources to make this work offline
