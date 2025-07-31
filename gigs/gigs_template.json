@@ -1,0 +1,29 @@
+{
+  "eventType": "show",
+  "eventName": "",
+  "date": "2026-01-01T19:00:00Z",
+  "location": {
+    "venue": "O2 City Hall Newcastle",
+    "city": "Newcastle",
+    "country": "England"
+  },
+  "artists": [
+    {
+      "name": "Headline_Band",
+      "role": "headliner"
+    },
+    {
+      "name": "Support_Band_1",
+      "role": "support"
+    },
+    {
+      "name": "Support_Band_2",
+      "role": "support"
+    }
+  ],
+  "ticket": {
+    "ticketType": "General Admission",
+    "price": 666,
+    "currency": "£"
+  }
+},

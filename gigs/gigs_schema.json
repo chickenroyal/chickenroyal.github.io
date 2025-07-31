@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "eventType": {
+        "type": "string",
+        "enum": ["show", "festival"],
+        "description": "Type of music event"
+      },
+      "eventName": {
+        "type": "string",
+        "description": "Name of the music event"
+      },
+      "date": {
+        "type": "string",
+        "format": "date",
+        "description": "Date of the event"
+      },
+      "endDate": {
+        "type": "string",
+        "format": "date",
+        "description": "End date of the event"
+      },
+      "location": {
+        "type": "object",
+        "properties": {
+          "venue": {
+            "type": "string",
+            "description": "Venue where the event is held"
+          },
+          "city": {
+            "type": "string",
+            "description": "City where the event is taking place"
+          },
+          "country": {
+            "type": "string",
+            "description": "Country where the event is happening"
+          }
+        },
+        "required": ["venue", "city", "country"]
+      },
+      "artists": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Name of the artist"
+            },
+            "role": {
+              "type": "string",
+              "enum": ["headliner", "support"],
+              "description": "Role of the artist in the event"
+            }
+          },
+          "required": ["name", "role"]
+        },
+        "description": "List of artists performing at the event"
+      },
+      "ticket": {
+        "type": "object",
+        "description": "Information about ticket types and pricing",
+        "properties": {
+          "ticketType": {
+            "type": "string",
+            "description": "Type of ticket (e.g., General Admission, Seated, VIP, etc.)"
+          },
+          "price": {
+            "type": "number",
+            "description": "Price of the ticket"
+          },
+          "currency": {
+            "type": "string",
+            "description": "Currency for the ticket price (e.g., GBP, EUR, CAD)"
+          }
+        },
+        "required": ["ticketType", "price", "currency"]
+      }
+    },
+    "required": ["eventType", "date", "location", "ticket"]
+  }
+}
