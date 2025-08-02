@@ -66,7 +66,9 @@ function createTabs(eventsByYear) {
     upcomingContent.id = 'content-upcoming';
     upcomingContent.innerHTML = `
       <p><strong>Events:</strong> ${upcomingEvents.length}</p>
-      ${createEventsHtml(upcomingEvents)}
+      <div class="events">
+        ${createEventsHtml(upcomingEvents)}
+      </div>
     `;
     tabContentContainer.appendChild(upcomingContent);
 
@@ -99,7 +101,9 @@ function createTabs(eventsByYear) {
     tabContent.id = `content-${year}`;
     tabContent.innerHTML = `
       <p><strong>Events:</strong> ${eventCount}</p>
-      ${createEventsHtml(eventsByYear[year])}
+      <div class="events">
+        ${createEventsHtml(eventsByYear[year])}
+      </div>
     `;
     tabContentContainer.appendChild(tabContent);
 
@@ -259,7 +263,7 @@ function createStatsHtml(events) {
 
   // Build stats markup with each section
   let html = `<p><strong>Total number of events:</strong> ${totalEvents}</p>`;
-  html += '<div class="stats-section">';
+  html += '<div class="stats">';
   html += buildGroupedSectionHtml("Artists", artistGrouped);
   html += buildGroupedSectionHtml("Venues", venueGrouped);
   html += buildGroupedSectionHtml("Cities", cityGrouped);
@@ -283,7 +287,7 @@ function groupFrequency(frequencyObj) {
 
 // Build accordions
 function buildGroupedSectionHtml(sectionTitle, groupedData) {
-  let html = `<div class="stats-section">`;
+  let html = `<div class="stat">`;
   // Make section header the accordion toggle
   html += `<h2 class="accordion-header">${sectionTitle}</h2>`;
   // Accordion content wrapper, shown by default

@@ -39,12 +39,32 @@
     .tab-content.active {
       display: block;
     }
+    
+    .events {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    @media only screen and (min-width: 666px) {
+      .events {        
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));        
+      }
+    }
 
     .event {
       border: 1px solid #ccc;
-      padding: 10px;
-      margin: 10px 0;
+      padding: 20px;
     }
+
+    .event h2 {
+      margin: 0;
+    }
+
+    .event > :last-child {
+      margin-bottom: 0;
+    }
+
     /* Accordions */
     .accordion-header {
       cursor: pointer;
@@ -53,21 +73,29 @@
       margin: 0;
       border: 1px solid #ccc;
     }
-    .accordion-content {
-      /* display: none; */
+
+    .accordion-content {      
       padding: 10px;
       border: 1px solid #ccc;
       border-top: none;
     }
+
     /* Stats boxes */
-    @media only screen and (min-width: 900px) {
-      .stats-section {
-        display: flex;
+    .stats {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    @media only screen and (min-width: 666px) {
+      .stats {        
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));        
       }
-      .stats-section > .stats-section {
-        display: block;
-        width: 100%;
-      }
+    }
+
+    .stats > .stat {
+      display: block;
+      width: 100%;
     }
   </style>
 </head>
