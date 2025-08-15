@@ -4377,8 +4377,7 @@
       {
         "name": "Cage Fight",
         "role": "support"
-      }
-      ,
+      },
       {
         "name": "Knife Bride",
         "role": "support"
@@ -4432,13 +4431,11 @@
       {
         "name": "The Bouncing Souls",
         "role": "support"
-      }
-      ,
+      },
       {
         "name": "The Aquabats",
         "role": "support"
-      }
-      ,
+      },
       {
         "name": "The Bar Stool Preachers",
         "role": "support"
@@ -4447,6 +4444,35 @@
     "ticket": {
       "ticketType": "General Admission",
       "price": 37.50,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
+    "date": "2026-04-10T18:00:00Z",
+    "location": {
+      "venue": "Rebellion",
+      "city": "Manchester",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Blackbraid",
+        "role": "headliner"
+      },
+      {
+        "name": "Winterfylleth",
+        "role": "support"
+      },
+      {
+        "name": "Noctem",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 25.50,
       "currency": "£"
     }
   },
