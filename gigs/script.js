@@ -40,6 +40,7 @@ function createTabs(eventsByYear) {
   // Clear previous content
   tabsContainer.innerHTML = '';
   tabContentContainer.innerHTML = '';
+  tabsContainer.setAttribute('role', 'tablist');
 
   // Separate upcoming events into its own tab
   const today = new Date();
@@ -54,8 +55,10 @@ function createTabs(eventsByYear) {
 
   // Add "Upcoming" tab first when there's any future events
   if (upcomingEvents.length > 0) {
-    const upcomingTab = document.createElement('div');
+    const upcomingTab = document.createElement('button');
     // Make "Upcoming" tab active by default
+    upcomingTab.setAttribute('type', 'button');
+    upcomingTab.setAttribute('role', 'tab');
     upcomingTab.className = 'tab active';
     upcomingTab.textContent = 'Upcoming';
     tabsContainer.appendChild(upcomingTab);
@@ -89,7 +92,9 @@ function createTabs(eventsByYear) {
     const eventCount = eventsByYear[year].length;
 
     // Create a tab for each year
-    const tab = document.createElement('div');
+    const tab = document.createElement('button');
+    tab.setAttribute('type', 'button');
+    tab.setAttribute('role', 'tab');
     tab.className = `tab ${upcomingEvents.length === 0 && index === 0 ? 'active' : ''}`;
     tab.textContent = year;
     tab.dataset.year = year;
@@ -123,7 +128,9 @@ function createTabs(eventsByYear) {
   });
   
   // Create "Stats" tab
-  const statsTab = document.createElement('div');
+  const statsTab = document.createElement('button');
+  statsTab.setAttribute('type', 'button');
+  statsTab.setAttribute('role', 'tab');
   statsTab.className = 'tab';
   statsTab.textContent = 'Stats';
   tabsContainer.appendChild(statsTab);
@@ -287,9 +294,9 @@ function groupFrequency(frequencyObj) {
 
 // Build accordions
 function buildGroupedSectionHtml(sectionTitle, groupedData) {
-  let html = `<div class="stat">`;
+  let html = `<div class="stat" role="tablist">`;
   // Make section header the accordion toggle
-  html += `<h2 class="accordion-header">${sectionTitle}</h2>`;
+  html += `<button class="accordion-header" type="button" role="tab">${sectionTitle}</button>`;
   // Accordion content wrapper, shown by default
   html += `<div class="accordion-content" style="display: block">`;
 
