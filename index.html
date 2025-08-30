@@ -1,149 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Andrew Royal</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Andrew Royal - Front-end developer">
-    <meta name="author" content="Andrew Royal">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="css/styles.min.css" rel="stylesheet" type="text/css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="theme-color" content="#1565c0">
-  </head>
-  <body>
-    <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <symbol id="icon-bluesky" viewBox="0 0 360 320">
-          <path class="path1" d="M180 141.964c-16.301-31.702-60.692-90.7823-101.9653-119.92C38.4971-5.8683 23.414-1.032 13.526 3.436 2.081 8.6074 0 26.1784 0 36.5163c0 10.3378 5.6675 84.7556 9.3642 97.1776 12.2144 41.044 55.6961 54.913 95.7398 50.462 2.047-.304 4.123-.584 6.225-.844-2.062.33-4.139.612-6.225.844-58.6836 8.691-110.8002 30.077-42.4458 106.174C137.848 368.18 165.705 273.637 180 225.702c14.295 47.935 30.76 139.069 115.995 64.628 64.005-64.628 17.585-97.48-41.099-106.172a131.118 131.118 0 0 1-6.225-.843c2.102.259 4.178.54 6.225.843 40.044 4.452 83.525-9.418 95.74-50.461C354.333 121.275 360 46.8568 360 36.519c0-10.3379-2.081-27.9089-13.526-33.0805-9.888-4.468-24.971-9.3043-64.509 18.6081C240.692 51.1843 196.301 110.262 180 141.964Z"/>
-        </symbol>
-        <symbol id="icon-mastodon" viewBox="0 0 16 16">
-          <path class="path1" d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a3.614 3.614 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522c0-.859.22-1.541.66-2.046.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764.442.505.661 1.187.661 2.046v4.203z"></path>
-        </symbol>
-        <symbol id="icon-github" viewBox="0 0 27 32">
-          <path class="path1" d="M13.714 2.286q3.732 0 6.884 1.839t4.991 4.991 1.839 6.884q0 4.482-2.616 8.063t-6.759 4.955q-0.482 0.089-0.714-0.125t-0.232-0.536q0-0.054 0.009-1.366t0.009-2.402q0-1.732-0.929-2.536 1.018-0.107 1.83-0.321t1.679-0.696 1.446-1.188 0.946-1.875 0.366-2.688q0-2.125-1.411-3.679 0.661-1.625-0.143-3.643-0.5-0.161-1.446 0.196t-1.643 0.786l-0.679 0.429q-1.661-0.464-3.429-0.464t-3.429 0.464q-0.286-0.196-0.759-0.482t-1.491-0.688-1.518-0.241q-0.804 2.018-0.143 3.643-1.411 1.554-1.411 3.679 0 1.518 0.366 2.679t0.938 1.875 1.438 1.196 1.679 0.696 1.83 0.321q-0.696 0.643-0.875 1.839-0.375 0.179-0.804 0.268t-1.018 0.089-1.17-0.384-0.991-1.116q-0.339-0.571-0.866-0.929t-0.884-0.429l-0.357-0.054q-0.375 0-0.518 0.080t-0.089 0.205 0.161 0.25 0.232 0.214l0.125 0.089q0.393 0.179 0.777 0.679t0.563 0.911l0.179 0.411q0.232 0.679 0.786 1.098t1.196 0.536 1.241 0.125 0.991-0.063l0.411-0.071q0 0.679 0.009 1.58t0.009 0.973q0 0.321-0.232 0.536t-0.714 0.125q-4.143-1.375-6.759-4.955t-2.616-8.063q0-3.732 1.839-6.884t4.991-4.991 6.884-1.839zM5.196 21.982q0.054-0.125-0.125-0.214-0.179-0.054-0.232 0.036-0.054 0.125 0.125 0.214 0.161 0.107 0.232-0.036zM5.75 22.589q0.125-0.089-0.036-0.286-0.179-0.161-0.286-0.054-0.125 0.089 0.036 0.286 0.179 0.179 0.286 0.054zM6.286 23.393q0.161-0.125 0-0.339-0.143-0.232-0.304-0.107-0.161 0.089 0 0.321t0.304 0.125zM7.036 24.143q0.143-0.143-0.071-0.339-0.214-0.214-0.357-0.054-0.161 0.143 0.071 0.339 0.214 0.214 0.357 0.054zM8.054 24.589q0.054-0.196-0.232-0.286-0.268-0.071-0.339 0.125t0.232 0.268q0.268 0.107 0.339-0.107zM9.179 24.679q0-0.232-0.304-0.196-0.286 0-0.286 0.196 0 0.232 0.304 0.196 0.286 0 0.286-0.196zM10.214 24.5q-0.036-0.196-0.321-0.161-0.286 0.054-0.25 0.268t0.321 0.143 0.25-0.25z"></path>
-        </symbol>
-        <symbol id="icon-codepen" viewBox="0 0 32 32">
-          <path class="path1" d="M3.857 20.875l10.768 7.179v-6.411l-5.964-3.982zM2.75 18.304l3.446-2.304-3.446-2.304v4.607zM17.375 28.054l10.768-7.179-4.804-3.214-5.964 3.982v6.411zM16 19.25l4.857-3.25-4.857-3.25-4.857 3.25zM8.661 14.339l5.964-3.982v-6.411l-10.768 7.179zM25.804 16l3.446 2.304v-4.607zM23.339 14.339l4.804-3.214-10.768-7.179v6.411zM32 11.125v9.75q0 0.732-0.607 1.143l-14.625 9.75q-0.375 0.232-0.768 0.232t-0.768-0.232l-14.625-9.75q-0.607-0.411-0.607-1.143v-9.75q0-0.732 0.607-1.143l14.625-9.75q0.375-0.232 0.768-0.232t0.768 0.232l14.625 9.75q0.607 0.411 0.607 1.143z"></path>
-        </symbol>
-        <symbol id="icon-lastfm" viewBox="0 0 32 32">
-          <path class="path1" d="M23.071 12.571q0 0.107 0.179 0.732 0.179 0.518 0.446 0.884t0.732 0.607 0.786 0.357 0.982 0.295q5.804 1.625 5.804 5.929 0 2.607-1.884 4.33t-4.545 1.723q-1.054 0-1.991-0.33t-1.634-0.813-1.375-1.33-1.125-1.563-0.955-1.848-0.777-1.839-0.705-1.902-0.634-1.696q-0.571-1.446-1.098-2.384t-1.313-1.723-1.857-1.143-2.536-0.357q-1.714 0-3.268 0.991t-2.464 2.58-0.911 3.304q0 2.857 1.902 4.991t4.705 2.134q3.161 0 4.607-1.696 1-1.125 1.482-2.071l1.5 2.714q-0.268 0.607-0.786 1.25l0.018 0.018q-2.339 2.714-6.929 2.714-2.625 0-4.813-1.411t-3.402-3.705-1.214-4.902q0-1.875 0.777-3.679t2.071-3.152 3.071-2.17 3.652-0.821q1.554 0 2.839 0.339t2.205 0.893 1.696 1.429 1.295 1.768 1.045 2.089 0.902 2.223 0.893 2.33 0.982 2.268q1.714 3.571 4.161 3.571 1.446 0 2.473-0.866t1.027-2.295q0-0.75-0.339-1.286t-0.902-0.821-1.295-0.563-1.509-0.482-1.563-0.607-1.446-0.929-1.161-1.464-0.696-2.188q-0.054-0.286-0.054-0.589 0-1.964 1.563-3.429t3.545-1.393q1.393 0.054 2.152 0.259t1.616 0.955h-0.018q0.214 0.196 0.411 0.438t0.464 0.643 0.339 0.491l-2.304 1.768q-0.464-0.875-0.964-1.25v-0.018q-0.411-0.375-1.732-0.375-0.875 0-1.5 0.589t-0.625 1.482z"></path>
-        </symbol>
-      </defs>
-    </svg>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" />
+  <title>aroyal.dev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      /* Base colors */
+      --clr-dark-a0: #000000;
+      --clr-light-a0: #ffffff;
 
-    <header>
-      <div class="container">
-        <h1>Andrew Royal</h1>
-      </div>
-    </header>
-    <main class="container">
-      <section>
-        <div class="intro">
-          <p>Hi! I'm Andrew, a senior software developer from Newcastle.</p>
-          <p>I enjoy making responsive websites and staying up-to-date with the latest web technologies. I'm particularly fond of HTML5, CSS3 and Sass, JavaScript and TypeScript, Angular, NodeJS, AWS and SVG.</p>
-          <p>Below is a selection of projects I've worked on. You can get in touch with me <span id="www-wrap" class="hide">by <a id="www" href="">email</a></span> or on <a href="https://bsky.app/profile/aroyal.dev">Bluesky</a>.</p>
-        </div>
-      </section>
-      <section>
-        <div class="card">
-          <img src="images/site-ltn.jpg" alt="Leighton website screenshot">
-          <div class="card-text">
-            <h2><a href="http://www.leighton.com">Leighton</a></h2>
-            <p>Team augmentation and software development.</p>
-            <p>Software engineer then technical design lead working on a high-profile section of the British Airways website.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/site-bw.jpg" alt="Brightwave website screenshot">
-          <div class="card-text">
-            <h2><a href="http://www.brightwavegroup.com">Brightwave</a></h2>
-            <p>SCORM compliant e-learning courses for organisations.</p>
-            <p>Responsive courses created using the in-house Waveform engine. Courses made use of interactive activities and scored assessments to present and test users' knowledge of key organisational policies. Clients included Diageo, Taylor Wimpey, and Thames Water.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/site-v2l.jpg" alt="vision2learn screenshots">
-          <div class="card-text">
-            <h2><a href="https://vision2learn.net">vision2learn</a></h2>
-            <p>Interactive e-learning courses for primary schools, secondary schools and adult learners.</p>
-            <p>Created using the responsive Foundation framework and SCSS to work on a wide range of devices. Courses included bespoke activities created with JavaScript/jQuery, HTML5 audio and video players, SVG graphics, and animations built using Adobe Edge Animate.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/site-cls.jpg" alt="Capita Learning Services website screenshot">
-          <div class="card-text">
-            <h2>Capita Learning Services</h2>
-            <p>Capita learning and development division.</p>
-            <p>Worked closely with the back-end developer to ensure efficient integration of Umbraco CMS and Foundation framework.</p>
-            <p>As a result of reorganisation within the division, the Learning Services website is no longer available. An archived version, with some loss of functionality, can be seen via Internet Archive's <a href="https://web.archive.org/web/20160612094727/http://www.capitalearningservices.co.uk:80/">Wayback Machine</a>.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/site-rain.jpg" alt="Rain or No Rain screenshots">
-          <div class="card-text">
-            <h2><a href="https://github.com/chickenroyal/rain">Rain or No Rain</a></h2>
-            <p>Is it raining where you are? Of course there's a website for that. How else are you meant to know?</p>
-            <p>Uses the HTML5 Geolocation interface along with <a href="https://forecast.io/">Forecast.io</a> and <a href="https://developers.google.com/maps/documentation/geocoding/start">Google Maps Geocoding</a> APIs.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/site-consult.jpg" alt="Consult the Experts screenshots">
-          <div class="card-text">
-            <h2>Consult the Experts</h2>
-            <p>North East management consultancy firm. <a href="https://web.archive.org/web/20180810205044/http://consulttheexperts.co.uk/">Archived version available</a>.</p>
-            <p>Built using WordPress and a customised theme.</p>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="container">        
-        <a href="https://bsky.app/profile/aroyal.dev" aria-label="Bluesky">
-          <div>
-            <svg viewBox="0 0 16 16">
-              <use xlink:href="#icon-bluesky"></use>
-            </svg>
-          </div>
-          <span>@aroyal.dev</span>
-        </a>
-        <a href="https://mastodon.online/@chickenroyal" rel="me" aria-label="Mastodon">
-          <div>
-            <svg viewBox="0 0 16 16">
-              <use xlink:href="#icon-mastodon"></use>
-            </svg>
-          </div>
-          <span>@chickenroyal</span>
-        </a>
-        <a href="https://github.com/chickenroyal" aria-label="GitHub">
-          <div>
-            <svg>
-              <use xlink:href="#icon-github"></use>
-            </svg>
-          </div>
-          <span>/chickenroyal</span>
-        </a>
-        <a href="https://codepen.io/chickenroyal/" aria-label="CodePen">
-          <div>
-            <svg>
-              <use xlink:href="#icon-codepen"></use>
-            </svg>
-          </div>
-          <span>/chickenroyal</span>
-        </a>
-        <a href="http://www.last.fm/user/chickenroyal" aria-label="Last.fm">
-          <div>
-            <svg>
-              <use xlink:href="#icon-lastfm"></use>
-            </svg>
-          </div>
-          <span>/chickenroyal</span>
-        </a>
-      </div>
-    </footer>
-    <script src="js/app.min.js"></script>
-  </body>
+      /* Theme primary colors */
+      --clr-primary-a0: #1564bf;
+      --clr-primary-a10: #4374c6;
+      --clr-primary-a20: #6084ce;
+      --clr-primary-a30: #7994d5;
+      --clr-primary-a40: #91a5dc;
+      --clr-primary-a50: #a7b6e3;
+
+      /* Theme surface colors */
+      --clr-surface-a0: #121212;
+      --clr-surface-a10: #282828;
+      --clr-surface-a20: #3f3f3f;
+      --clr-surface-a30: #575757;
+      --clr-surface-a40: #717171;
+      --clr-surface-a50: #8b8b8b;
+    }
+
+    * {      
+      background-color: var(--clr-surface-a0);
+      font-family: "Pirata One", Helvetica, Arial, sans-serif;
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    a {
+      display: inline-block;
+      color: var(--clr-surface-a40);
+      text-decoration: none;
+      text-transform: lowercase;
+      padding: 0 1rem;
+    }
+    
+    a:hover,
+    a:focus-visible  {
+      color: var(--clr-primary-a0);
+    }
+
+    a:focus-visible {
+      outline: 0;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="/gigs/">Gigs</a></li>
+    <li><a href="https://www.last.fm/user/chickenroyal">Last.fm</a></li>
+    <li><a href="https://steamcommunity.com/id/novaprospekt/">Steam</a></li>
+    <li><a href="https://bsky.app/profile/aroyal.dev">Bluesky</a></li>
+    <li><a href="https://www.instagram.com/aroyal418/">Instagram</a></li>
+  </ul>
+</body>
 </html>
