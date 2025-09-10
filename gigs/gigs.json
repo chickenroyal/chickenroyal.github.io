@@ -4197,6 +4197,31 @@
   {
     "eventType": "show",
     "eventName": "",
+    "date": "2025-09-13T19:30:00Z",
+    "location": {
+      "venue": "The Cluny 2",
+      "city": "Newcastle",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Jo Quail",
+        "role": "headliner"
+      },
+      {
+        "name": "Arð",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 15,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
     "date": "2025-10-04T18:30:00Z",
     "location": {
       "venue": "Rock City",
