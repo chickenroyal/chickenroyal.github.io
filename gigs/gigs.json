@@ -4503,6 +4503,115 @@
   },
   {
     "eventType": "festival",
+    "eventName": "Slam Dunk Festival 2026 - North",
+    "date": "2026-05-24T11:00:00Z",
+    "location": {
+      "venue": "Temple Newsam Park",
+      "city": "Leeds",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "A",
+        "role": "support"
+      },
+      {
+        "name": "Allister",
+        "role": "support"
+      },
+      {
+        "name": "Broadside",
+        "role": "support"
+      },
+      {
+        "name": "Bury Tomorrow",
+        "role": "support"
+      },
+      {
+        "name": "Cancer Bats",
+        "role": "support"
+      },
+      {
+        "name": "Cartel",
+        "role": "support"
+      },
+      {
+        "name": "Dashboard Confessional",
+        "role": "support"
+      },
+      {
+        "name": "Driveways",
+        "role": "support"
+      },
+      {
+        "name": "Goldfinger",
+        "role": "support"
+      },
+      {
+        "name": "Good Charlotte",
+        "role": "support"
+      },
+      {
+        "name": "Hawthorne Heights",
+        "role": "support"
+      },
+      {
+        "name": "Motion City Soundtrack",
+        "role": "support"
+      },
+      {
+        "name": "President",
+        "role": "support"
+      },
+      {
+        "name": "Set Your Goals",
+        "role": "support"
+      },
+      {
+        "name": "Stand Atlantic",
+        "role": "support"
+      },
+      {
+        "name": "Sublime",
+        "role": "support"
+      },
+      {
+        "name": "Taking Back Sunday",
+        "role": "support"
+      },
+      {
+        "name": "The Home Team",
+        "role": "support"
+      },
+      {
+        "name": "The Menzingers",
+        "role": "support"
+      },
+      {
+        "name": "The Suicide Machines",
+        "role": "support"
+      },
+      {
+        "name": "Tonight Alive",
+        "role": "support"
+      },
+      {
+        "name": "Unpeople",
+        "role": "support"
+      },
+      {
+        "name": "Zebrahead",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission (Early Bird)",
+      "price": 130,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "festival",
     "eventName": "Fortress Festival 2026",
     "date": "2026-05-30T12:00:00Z",
     "endDate": "2026-05-31T22:00:00Z",
