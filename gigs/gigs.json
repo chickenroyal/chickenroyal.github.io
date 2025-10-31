@@ -3129,7 +3129,7 @@
       "price": 26.20,
       "currency": "£"
     }
-  },  
+  },
   {
     "eventType": "show",
     "eventName": "",
@@ -3151,8 +3151,7 @@
       {
         "name": "Jesse Ahern",
         "role": "support"
-      }
-      ,
+      },
       {
         "name": "The Rumjacks",
         "role": "support"
@@ -3843,7 +3842,7 @@
       "price": 23,
       "currency": "£"
     }
-  },  
+  },
   {
     "eventType": "show",
     "eventName": "",
@@ -4512,11 +4511,31 @@
     },
     "artists": [
       {
+        "name": "A Loss For Words",
+        "role": "support"
+      },
+      {
         "name": "A",
         "role": "support"
       },
       {
         "name": "Allister",
+        "role": "support"
+      },
+      {
+        "name": "Angel Du$T",
+        "role": "support"
+      },
+      {
+        "name": "Bayside",
+        "role": "support"
+      },
+      {
+        "name": "Beauty School",
+        "role": "support"
+      },
+      {
+        "name": "Boston Manor",
         "role": "support"
       },
       {
@@ -4528,6 +4547,10 @@
         "role": "support"
       },
       {
+        "name": "Call Me Amour",
+        "role": "support"
+      },
+      {
         "name": "Cancer Bats",
         "role": "support"
       },
@@ -4536,11 +4559,31 @@
         "role": "support"
       },
       {
+        "name": "Comeback Kid",
+        "role": "support"
+      },
+      {
+        "name": "Currents",
+        "role": "support"
+      },
+      {
         "name": "Dashboard Confessional",
         "role": "support"
       },
       {
+        "name": "Dead Pony",
+        "role": "support"
+      },
+      {
+        "name": "Deaf Havana",
+        "role": "support"
+      },
+      {
         "name": "Driveways",
+        "role": "support"
+      },
+      {
+        "name": "Dying Wish",
         "role": "support"
       },
       {
@@ -4552,7 +4595,31 @@
         "role": "support"
       },
       {
+        "name": "Guilt Trip",
+        "role": "support"
+      },
+      {
+        "name": "Hands Like Houses",
+        "role": "support"
+      },
+      {
         "name": "Hawthorne Heights",
+        "role": "support"
+      },
+      {
+        "name": "Heriot",
+        "role": "support"
+      },
+      {
+        "name": "Knocked Loose",
+        "role": "support"
+      },
+      {
+        "name": "Madina Lake",
+        "role": "support"
+      },
+      {
+        "name": "Malevolence",
         "role": "support"
       },
       {
@@ -4560,7 +4627,23 @@
         "role": "support"
       },
       {
+        "name": "Origami Angel",
+        "role": "support"
+      },
+      {
+        "name": "Pest Control",
+        "role": "support"
+      },
+      {
         "name": "President",
+        "role": "support"
+      },
+      {
+        "name": "Punk Rock Factory",
+        "role": "support"
+      },
+      {
+        "name": "Saosin",
         "role": "support"
       },
       {
@@ -4568,7 +4651,19 @@
         "role": "support"
       },
       {
+        "name": "Sim",
+        "role": "support"
+      },
+      {
         "name": "Stand Atlantic",
+        "role": "support"
+      },
+      {
+        "name": "State Champs",
+        "role": "support"
+      },
+      {
+        "name": "Static Dress",
         "role": "support"
       },
       {
@@ -4596,7 +4691,19 @@
         "role": "support"
       },
       {
+        "name": "Trash Boat",
+        "role": "support"
+      },
+      {
         "name": "Unpeople",
+        "role": "support"
+      },
+      {
+        "name": "Vukovi",
+        "role": "support"
+      },
+      {
+        "name": "Youth Fountain",
         "role": "support"
       },
       {
