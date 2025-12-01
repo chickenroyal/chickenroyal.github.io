@@ -4505,6 +4505,27 @@
     }
   },
   {
+    "eventType": "show",
+    "eventName": "",
+    "date": "2026-05-14T19:00:00Z",
+    "location": {
+      "venue": "O2 Academy Glasgow",
+      "city": "Glasgow",
+      "country": "Scotland"
+    },
+    "artists": [
+      {
+        "name": "Machine Head",
+        "role": "headliner"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 58.50,
+      "currency": "£"
+    }
+  },
+  {
     "eventType": "festival",
     "eventName": "Slam Dunk Festival 2026 - North",
     "date": "2026-05-24T11:00:00Z",
