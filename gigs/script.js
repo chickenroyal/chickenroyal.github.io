@@ -1,7 +1,7 @@
 // Fetch and display events
 function fetchAndDisplayEvents() {
   // Fetch the JSON file
-  fetch('gigs.json')
+  fetch('gigs.min.json')
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not OK');
