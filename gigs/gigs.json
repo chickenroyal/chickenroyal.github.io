@@ -4507,6 +4507,31 @@
   {
     "eventType": "show",
     "eventName": "",
+    "date": "2026-04-26T19:30:00Z",
+    "location": {
+      "venue": "Old Fire Station",
+      "city": "Carlisle",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Creeper",
+        "role": "headliner"
+      },
+      {
+        "name": "The Howling",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 30.25,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
     "date": "2026-05-14T19:00:00Z",
     "location": {
       "venue": "O2 Academy Glasgow",
