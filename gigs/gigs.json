@@ -4478,6 +4478,31 @@
   {
     "eventType": "show",
     "eventName": "",
+    "date": "2026-03-22T19:00:00Z",
+    "location": {
+      "venue": "Think Tank",
+      "city": "Newcastle",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Employed to Serve",
+        "role": "headliner"
+      },
+      {
+        "name": "Cage Fight",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 18.50,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
     "date": "2026-04-10T18:00:00Z",
     "location": {
       "venue": "Rebellion",
