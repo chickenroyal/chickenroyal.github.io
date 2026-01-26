@@ -4445,6 +4445,35 @@
   {
     "eventType": "show",
     "eventName": "",
+    "date": "2026-02-14T19:00:00Z",
+    "location": {
+      "venue": "The Lubber Fiend",
+      "city": "Newcastle",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Devastator",
+        "role": "headliner"
+      },
+      {
+        "name": "Struck a Nerve",
+        "role": "support"
+      },
+      {
+        "name": "Bloodsaw",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 11,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
     "date": "2026-03-07T18:00:00Z",
     "location": {
       "venue": "Barrowland Ballroom",
