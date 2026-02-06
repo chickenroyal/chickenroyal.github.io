@@ -4586,6 +4586,35 @@
   {
     "eventType": "show",
     "eventName": "",
+    "date": "2026-05-03T18:30:00Z",
+    "location": {
+      "venue": "Slay",
+      "city": "Glasgow",
+      "country": "Scotland"
+    },
+    "artists": [
+      {
+        "name": "Dragged Into Sunlight",
+        "role": "headliner"
+      },
+      {
+        "name": "Vacuous",
+        "role": "support"
+      },
+      {
+        "name": "Plague Pit",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 29.50,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
     "date": "2026-05-14T19:00:00Z",
     "location": {
       "venue": "O2 Academy Glasgow",
