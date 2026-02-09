@@ -4532,6 +4532,27 @@
   {
     "eventType": "show",
     "eventName": "",
+    "date": "2026-04-06T19:30:00Z",
+    "location": {
+      "venue": "The Cluny",
+      "city": "Newcastle",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Kill the Lights",
+        "role": "headliner"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 15,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
     "date": "2026-04-10T18:00:00Z",
     "location": {
       "venue": "Rebellion",
