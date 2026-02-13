@@ -3426,7 +3426,7 @@
     "eventType": "festival",
     "eventName": "Fortress Festival 2024",
     "date": "2024-06-01T12:00:00Z",
-    "endDate": "2024-06-02T23:00:00Z",
+    "endDate": "2024-06-02T22:59:00Z",
     "location": {
       "venue": "The Spa",
       "city": "Scarborough",
@@ -4050,7 +4050,7 @@
     "eventType": "festival",
     "eventName": "Fortress Festival 2025",
     "date": "2025-05-31T12:00:00Z",
-    "endDate": "2025-06-01T22:00:00Z",
+    "endDate": "2025-06-01T22:59:00Z",
     "location": {
       "venue": "The Spa",
       "city": "Scarborough",
@@ -4875,7 +4875,7 @@
     "eventType": "festival",
     "eventName": "Fortress Festival 2026",
     "date": "2026-05-30T12:00:00Z",
-    "endDate": "2026-05-31T22:00:00Z",
+    "endDate": "2026-05-31T22:59:00Z",
     "location": {
       "venue": "The Spa",
       "city": "Scarborough",
