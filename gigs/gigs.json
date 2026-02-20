@@ -4998,6 +4998,27 @@
     }
   },
   {
+    "eventType": "show",
+    "eventName": "",
+    "date": "2026-08-05T19:00:00Z",
+    "location": {
+      "venue": "The Grove",
+      "city": "Newcastle",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Spectral Wound",
+        "role": "headliner"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 20,
+      "currency": "£"
+    }
+  },
+  {
     "eventType": "festival",
     "eventName": "Tynebound 2026",
     "date": "2026-09-05T13:00:00Z",
@@ -5028,6 +5049,39 @@
     "ticket": {
       "ticketType": "General Admission",
       "price": 79,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
+    "date": "2026-11-27T19:00:00Z",
+    "location": {
+      "venue": "The Grove",
+      "city": "Newcastle",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "A Forest of Stars",
+        "role": "headliner"
+      },
+      {
+        "name": "Fellwarden",
+        "role": "support"
+      },
+      {
+        "name": "Nemorous",
+        "role": "support"
+      },
+      {
+        "name": "Andracca",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 20,
       "currency": "£"
     }
   }
