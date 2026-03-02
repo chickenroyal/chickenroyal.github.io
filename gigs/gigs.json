@@ -5034,7 +5034,15 @@
         "role": "support"
       },
       {
+        "name": "Blood Countess",
+        "role": "support"
+      },
+      {
         "name": "Cnoc An Tursa",
+        "role": "support"
+      },
+      {
+        "name": "Conifère",
         "role": "support"
       },
       {
@@ -5043,6 +5051,14 @@
       },
       {
         "name": "Moonlight Sorcery",
+        "role": "support"
+      },
+      {
+        "name": "The Infernal Sea",
+        "role": "support"
+      },
+      {
+        "name": "The Suns Journey Through The Night",
         "role": "support"
       }
     ],
