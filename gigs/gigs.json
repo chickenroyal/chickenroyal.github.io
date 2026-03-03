@@ -5000,6 +5000,27 @@
   {
     "eventType": "show",
     "eventName": "",
+    "date": "2026-06-26T19:00:00Z",
+    "location": {
+      "venue": "Zerox",
+      "city": "Newcastle",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Abduction",
+        "role": "headliner"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 15,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
     "date": "2026-08-05T19:00:00Z",
     "location": {
       "venue": "The Grove",
