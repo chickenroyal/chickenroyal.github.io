@@ -5092,6 +5092,31 @@
   {
     "eventType": "show",
     "eventName": "",
+    "date": "2026-10-03T19:00:00Z",
+    "location": {
+      "venue": "O2 City Hall Newcastle",
+      "city": "Newcastle",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "The Hu",
+        "role": "headliner"
+      },
+      {
+        "name": "Skáld",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 30,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
     "date": "2026-11-27T19:00:00Z",
     "location": {
       "venue": "The Grove",
