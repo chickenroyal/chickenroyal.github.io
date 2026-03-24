@@ -4521,6 +4521,10 @@
       {
         "name": "Cage Fight",
         "role": "support"
+      },
+      {
+        "name": "Perpetua",
+        "role": "support"
       }
     ],
     "ticket": {
@@ -4927,15 +4931,15 @@
         "role": "support"
       },
       {
+        "name": "Fief",
+        "role": "support"
+      },
+      {
         "name": "Fluisteraars",
         "role": "support"
       },
       {
         "name": "Gallowbraid",
-        "role": "support"
-      },
-      {
-        "name": "Gate Master",
         "role": "support"
       },
       {
