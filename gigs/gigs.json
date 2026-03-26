@@ -5014,6 +5014,14 @@
       {
         "name": "Abduction",
         "role": "headliner"
+      },
+      {
+        "name": "Acceptance",
+        "role": "support"
+      },
+      {
+        "name": "Bruul",
+        "role": "support"
       }
     ],
     "ticket": {
