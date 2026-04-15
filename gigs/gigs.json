@@ -5157,6 +5157,35 @@
   {
     "eventType": "show",
     "eventName": "",
+    "date": "2026-10-17T18:00:00Z",
+    "location": {
+      "venue": "O2 Academy Brixton",
+      "city": "London",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Behemoth",
+        "role": "headliner"
+      },
+      {
+        "name": "Dimmu Borgir",
+        "role": "support"
+      },
+      {
+        "name": "Dark Funeral",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 55,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
     "date": "2026-10-30T18:00:00Z",
     "location": {
       "venue": "Utilita Arena",
