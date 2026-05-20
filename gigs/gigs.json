@@ -5008,6 +5008,31 @@
   {
     "eventType": "show",
     "eventName": "",
+    "date": "2026-06-13T19:30:00Z",
+    "location": {
+      "venue": "Digital",
+      "city": "Newcastle",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Electric Six",
+        "role": "headliner"
+      },
+      {
+        "name": "Enjoyable Listens",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 21.50,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
     "date": "2026-06-26T19:00:00Z",
     "location": {
       "venue": "Zerox",
