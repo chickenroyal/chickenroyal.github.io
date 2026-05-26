@@ -4755,10 +4755,6 @@
         "role": "support"
       },
       {
-        "name": "Atlantean Sword",
-        "role": "support"
-      },
-      {
         "name": "Black Cilice",
         "role": "support"
       },
@@ -4820,6 +4816,10 @@
       },
       {
         "name": "Ossaert",
+        "role": "support"
+      },
+      {
+        "name": "Portcullis",
         "role": "support"
       },
       {
