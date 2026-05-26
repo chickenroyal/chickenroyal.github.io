@@ -5084,6 +5084,31 @@
   {
     "eventType": "show",
     "eventName": "",
+    "date": "2026-11-20T18:30:00Z",
+    "location": {
+      "venue": "Co-op Live",
+      "city": "Manchester",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Good Charlotte",
+        "role": "headliner"
+      },
+      {
+        "name": "Yellowcard",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 57.50,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
     "date": "2026-11-27T19:00:00Z",
     "location": {
       "venue": "The Grove",
