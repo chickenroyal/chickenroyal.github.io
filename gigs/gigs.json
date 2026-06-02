@@ -4724,6 +4724,35 @@
     }
   },
   {
+    "eventType": "show",
+    "eventName": "Fortress Festival 2026 Pre-show",
+    "date": "2026-05-29T19:00:00Z",
+    "location": {
+      "venue": "The Cask & Keg",
+      "city": "Scarborough",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Wode",
+        "role": "headliner"
+      },
+      {
+        "name": "Andracca",
+        "role": "support"
+      },
+      {
+        "name": "Blood Countess",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "Free with festival ticket",
+      "price": 0,
+      "currency": "£"
+    }
+  },
+  {
     "eventType": "festival",
     "eventName": "Fortress Festival 2026",
     "date": "2026-05-30T12:00:00Z",
