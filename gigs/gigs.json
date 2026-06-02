@@ -5167,5 +5167,27 @@
       "price": 20,
       "currency": "£"
     }
+  },
+  {
+    "eventType": "festival",
+    "eventName": "Fortress Festival 2027",
+    "date": "2027-05-29T12:00:00Z",
+    "endDate": "2027-05-30T22:59:00Z",
+    "location": {
+      "venue": "The Spa",
+      "city": "Scarborough",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Emperor",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission (1st Release Early Bird)",
+      "price": 189,
+      "currency": "£"
+    }
   }
 ]
