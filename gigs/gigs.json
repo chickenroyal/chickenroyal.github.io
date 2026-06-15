@@ -5063,6 +5063,35 @@
   {
     "eventType": "show",
     "eventName": "",
+    "date": "2026-10-11T18:30:00Z",
+    "location": {
+      "venue": "SWG3",
+      "city": "Glasgow",
+      "country": "Scotland"
+    },
+    "artists": [
+      {
+        "name": "Creeper",
+        "role": "headliner"
+      },
+      {
+        "name": "Calva Louise",
+        "role": "support"
+      },
+      {
+        "name": "Starbenders",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 32.50,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
     "date": "2026-10-17T18:00:00Z",
     "location": {
       "venue": "O2 Academy Brixton",
