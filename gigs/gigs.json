@@ -5177,6 +5177,27 @@
     }
   },
   {
+    "eventType": "show",
+    "eventName": "",
+    "date": "2027-01-23T18:00:00Z",
+    "location": {
+      "venue": "Co-op Live",
+      "city": "Manchester",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Electric Callboy",
+        "role": "headliner"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 59.50,
+      "currency": "£"
+    }
+  },
+  {
     "eventType": "festival",
     "eventName": "Fortress Festival 2027",
     "date": "2027-05-29T12:00:00Z",
