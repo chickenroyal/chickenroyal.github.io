@@ -5175,6 +5175,31 @@
   {
     "eventType": "show",
     "eventName": "",
+    "date": "2026-11-21T19:00:00Z",
+    "location": {
+      "venue": "Newcastle University",
+      "city": "Newcastle",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Harakiri For The Sky",
+        "role": "headliner"
+      },
+      {
+        "name": "Sunken",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 27.50,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
     "date": "2026-11-27T19:00:00Z",
     "location": {
       "venue": "The Grove",
