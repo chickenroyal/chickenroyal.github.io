@@ -5292,7 +5292,55 @@
     },
     "artists": [
       {
+        "name": "Dungeontroll",
+        "role": "support"
+      },
+      {
         "name": "Emperor",
+        "role": "support"
+      },
+      {
+        "name": "Forteresse",
+        "role": "support"
+      },
+      {
+        "name": "Gràb",
+        "role": "support"
+      },
+      {
+        "name": "Gris",
+        "role": "support"
+      },
+      {
+        "name": "Havukruunu",
+        "role": "support"
+      },
+      {
+        "name": "Miserere Luminis",
+        "role": "support"
+      },
+      {
+        "name": "Mourir",
+        "role": "support"
+      },
+      {
+        "name": "Sinmara",
+        "role": "support"
+      },
+      {
+        "name": "Slagmaur",
+        "role": "support"
+      },
+      {
+        "name": "Tardigrada",
+        "role": "support"
+      },
+      {
+        "name": "Trhä",
+        "role": "support"
+      },
+      {
+        "name": "Yellow Eyes",
         "role": "support"
       }
     ],
