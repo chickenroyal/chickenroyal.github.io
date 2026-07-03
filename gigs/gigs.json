@@ -5150,6 +5150,35 @@
   {
     "eventType": "show",
     "eventName": "",
+    "date": "2026-11-14T19:00:00Z",
+    "location": {
+      "venue": "Barrowland Ballroom",
+      "city": "Glasgow",
+      "country": "Scotland"
+    },
+    "artists": [
+      {
+        "name": "Skindred",
+        "role": "headliner"
+      },
+      {
+        "name": "Dead Pony",
+        "role": "support"
+      },
+      {
+        "name": "The Colony",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 38,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
+    "eventName": "",
     "date": "2026-11-20T18:30:00Z",
     "location": {
       "venue": "Co-op Live",
