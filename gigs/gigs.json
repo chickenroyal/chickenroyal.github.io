@@ -5288,11 +5288,23 @@
     },
     "artists": [
       {
+        "name": "Atlantean Sword",
+        "role": "support"
+      },
+      {
+        "name": "Dragon Keep",
+        "role": "support"
+      },
+      {
         "name": "Dungeontroll",
         "role": "support"
       },
       {
         "name": "Emperor",
+        "role": "support"
+      },
+      {
+        "name": "Erang",
         "role": "support"
       },
       {
@@ -5312,6 +5324,14 @@
         "role": "support"
       },
       {
+        "name": "Hole Dweller",
+        "role": "support"
+      },
+      {
+        "name": "Lord Bakartia",
+        "role": "support"
+      },
+      {
         "name": "Miserere Luminis",
         "role": "support"
       },
@@ -5328,11 +5348,19 @@
         "role": "support"
       },
       {
+        "name": "Spectral Castle",
+        "role": "support"
+      },
+      {
         "name": "Tardigrada",
         "role": "support"
       },
       {
         "name": "Trhä",
+        "role": "support"
+      },
+      {
+        "name": "Wraith Knight",
         "role": "support"
       },
       {
