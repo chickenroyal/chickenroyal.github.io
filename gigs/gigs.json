@@ -5325,6 +5325,10 @@
         "role": "support"
       },
       {
+        "name": "Bloodbark",
+        "role": "support"
+      },
+      {
         "name": "Dragon Keep",
         "role": "support"
       },
@@ -5365,11 +5369,31 @@
         "role": "support"
       },
       {
+        "name": "Mare",
+        "role": "support"
+      },
+      {
         "name": "Miserere Luminis",
         "role": "support"
       },
       {
         "name": "Mourir",
+        "role": "support"
+      },
+      {
+        "name": "Ninkharsag",
+        "role": "support"
+      },
+      {
+        "name": "Oerheks",
+        "role": "support"
+      },
+      {
+        "name": "Örnatorpet",
+        "role": "support"
+      },
+      {
+        "name": "Silver Knife",
         "role": "support"
       },
       {
@@ -5382,6 +5406,14 @@
       },
       {
         "name": "Spectral Castle",
+        "role": "support"
+      },
+      {
+        "name": "Stormkeep",
+        "role": "support"
+      },
+      {
+        "name": "Sulphur Aeon",
         "role": "support"
       },
       {
