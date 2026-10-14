@@ -5285,6 +5285,31 @@
     }
   },
   {
+    "eventType": "show",
+    "eventName": "Fortress Festival 2027 - First Light",
+    "date": "2027-05-28T19:00:00Z",
+    "location": {
+      "venue": "The Spa",
+      "city": "Scarborough",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Watain",
+        "role": "headliner"
+      },
+      {
+        "name": "Terrestrial Hospice",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 69,
+      "currency": "£"
+    }
+  },
+  {
     "eventType": "festival",
     "eventName": "Fortress Festival 2027",
     "date": "2027-05-29T12:00:00Z",
