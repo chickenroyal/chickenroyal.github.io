@@ -5286,6 +5286,35 @@
   },
   {
     "eventType": "show",
+    "eventName": "",
+    "date": "2027-05-22T19:00:00Z",
+    "location": {
+      "venue": "Digital",
+      "city": "Newcastle",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Dragged Into Sunlight",
+        "role": "headliner"
+      },
+      {
+        "name": "Mizmor",
+        "role": "support"
+      },
+      {
+        "name": "This Gift Is a Curse",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission",
+      "price": 35,
+      "currency": "£"
+    }
+  },
+  {
+    "eventType": "show",
     "eventName": "Fortress Festival 2027 - First Light",
     "date": "2027-05-28T19:00:00Z",
     "location": {
