@@ -5487,5 +5487,39 @@
       "price": 189,
       "currency": "£"
     }
+  },
+  {
+    "eventType": "festival",
+    "eventName": "Tynebound 2027",
+    "date": "2027-09-25T13:00:00Z",
+    "endDate": "2027-09-26T22:00:00Z",
+    "location": {
+      "venue": "Anarchy Brew Co.",
+      "city": "Newcastle",
+      "country": "England"
+    },
+    "artists": [
+      {
+        "name": "Bruul",
+        "role": "support"
+      },
+      {
+        "name": "Darvaza",
+        "role": "support"
+      },
+      {
+        "name": "Détresse",
+        "role": "support"
+      },
+      {
+        "name": "Dödsrit",
+        "role": "support"
+      }
+    ],
+    "ticket": {
+      "ticketType": "General Admission (Blind Early Bird)",
+      "price": 79,
+      "currency": "£"
+    }
   }
 ]
